@@ -1,0 +1,15 @@
+users:
+ admin:
+  state: present
+  comment: "Admin user"
+  shell: "/bin/bash"
+  uid: 5110
+  gid: 5110
+  password: "abcdefgh"
+ testuser:
+  state: present
+  comment: "Test user"
+  shell: "/bin/bash"
+  uid: 5111
+  gid: 5111
+  password: "abcdefgh"

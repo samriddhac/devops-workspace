@@ -1,0 +1,5 @@
+- name: Manage Common Items 
+  hosts: all
+  remote_user: "{{remote_user}}"
+  roles: 
+   - {role: common, tags: ['common']}

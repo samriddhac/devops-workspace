@@ -1,2 +1,5 @@
 ---
 # tasks file for common
+- include: ping.yml
+- include: create_users.yml
+- include: install_packages.yml
