@@ -39,6 +39,8 @@ fi
 
 mkdir -p ${PROJECT_PATH}/${PLAYBOOK_TITLE}/files
 mkdir -p ${PROJECT_PATH}/${PLAYBOOK_TITLE}/group_vars
+mkdir -p ${PROJECT_PATH}/${PLAYBOOK_TITLE}/group_vars/dev
+mkdir -p ${PROJECT_PATH}/${PLAYBOOK_TITLE}/group_vars/qa
 mkdir -p ${PROJECT_PATH}/${PLAYBOOK_TITLE}/host_vars/dev
 mkdir -p ${PROJECT_PATH}/${PLAYBOOK_TITLE}/host_vars/qa
 mkdir -p ${PROJECT_PATH}/${PLAYBOOK_TITLE}/inventories
