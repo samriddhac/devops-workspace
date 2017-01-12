@@ -1,0 +1,8 @@
+virtualhosts:
+ test1:
+  server_name: test.sam1.com
+  vhost_root: '/usr/share/nginx/test1'
+
+ test2:
+  server_name: test.sam2.com
+  vhost_root: '/usr/share/nginx/test2'

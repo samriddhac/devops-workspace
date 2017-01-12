@@ -1,0 +1,12 @@
+- name: Manage Common Items 
+  hosts: all
+  remote_user: "{{remote_user}}"
+  roles: 
+   - {role: common, tags: ['common']}
+
+- name: Manage nginx
+  hosts: webserver
+  remote_user: "{{remote_user}}"
+  sudo: yes
+  roles:
+   - {role: nginx, tags: ['nginx']}
